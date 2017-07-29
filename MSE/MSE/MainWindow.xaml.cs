@@ -24,5 +24,37 @@ namespace MSE
         {
             InitializeComponent();
         }
+
+        private List<URL> ListaURL = new List<URL>();
+        private URL url;
+
+        private void AdicionarUrlNaLista()
+        {
+            url = new URL();
+            url.setEndereco(txb_Url.Text.ToString());
+            ListaURL.Add(url);
+            lbx_UrlAdicionadas.Items.Add(url.getEndereco());
+        }
+        public void RemoveURL()
+        {
+           
+        }
+        public void ExibeListaDeURL()
+        {
+           
+        }
+     
+
+
+        private void btn_AddURL_Click(object sender, RoutedEventArgs e)
+        {
+            AdicionarUrlNaLista();
+             
+        }
+
+        private void btn_RemoverURL_Click(object sender, RoutedEventArgs e)
+        {
+            RemoveURL();
+        }
     }
 }

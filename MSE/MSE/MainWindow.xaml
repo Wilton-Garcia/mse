@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MSE"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="599.7" Width="800">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="503*"/>
+            <ColumnDefinition Width="14*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="lbl_titulo" Content="MSE - Meu Site Executavel" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="2.618,2.308" Margin="152,27,0,0" Width="508" FontFamily="Consolas" FontSize="36"/>
+        <Label x:Name="label" Content="Digite a URL do site" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="51,177,0,0" FontFamily="Consolas" FontSize="22" RenderTransformOrigin="0.484,1.75"/>
+        <TextBox x:Name="txb_Url" HorizontalAlignment="Left" Height="50" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="443" Margin="51,240,0,0" FontFamily="Consolas" FontSize="36" FontWeight="Bold"/>
+        <Button x:Name="btn_AddURL" Content="Adicionar URL" HorizontalAlignment="Left" VerticalAlignment="Top" Width="176" Margin="520,240,0,0" Height="50" Click="btn_AddURL_Click"/>
+        <ListBox x:Name="lbx_UrlAdicionadas" HorizontalAlignment="Left" Height="226" Margin="51,310,0,0" VerticalAlignment="Top" Width="443"/>
+        <Button x:Name="btn_EditarURL" Content="Editar" HorizontalAlignment="Left" Margin="520,330,0,0" VerticalAlignment="Top" Width="176" Height="50"/>
+        <Button x:Name="btn_RemoverURL" Content="Remover" HorizontalAlignment="Left" Margin="520,398,0,0" VerticalAlignment="Top" Width="176" Height="50" Click="btn_RemoverURL_Click"/>
+        <Button x:Name="btn_GeraExecutavel" Content="Gerar Executável" HorizontalAlignment="Left" Margin="520,486,0,0" VerticalAlignment="Top" Width="176" Height="50"/>
+
     </Grid>
 </Window>
