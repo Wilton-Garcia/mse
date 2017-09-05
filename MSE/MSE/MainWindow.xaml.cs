@@ -28,16 +28,33 @@ namespace MSE
         private List<URL> ListaURL = new List<URL>();
         private URL url;
 
+
+        public void AtualizaLista()
+        {
+            ListaURL.Clear();
+            foreach( URL u in ListaURL){
+                lbx_UrlAdicionadas.Items.Add(u.getEndereco());
+            }
+        }
+
+
         private void AdicionarUrlNaLista()
         {
             url = new URL();
             url.setEndereco(txb_Url.Text.ToString());
             ListaURL.Add(url);
-            lbx_UrlAdicionadas.Items.Add(url.getEndereco());
+            AtualizaLista();
         }
         public void RemoveURL()
         {
-           
+            String strUrl = lbx_UrlAdicionadas.SelectedItem.ToString();
+            foreach (URL u in ListaURL){
+                if(u.getEndereco() == strUrl)
+                {
+                    this.ListaURL = null;
+                }
+                AtualizaLista();
+            }
         }
         public void ExibeListaDeURL()
         {
