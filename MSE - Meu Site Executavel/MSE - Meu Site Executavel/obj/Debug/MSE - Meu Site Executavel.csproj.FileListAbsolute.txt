@@ -1,0 +1,11 @@
+c:\users\will\documents\visual studio 2013\Projects\MSE - Meu Site Executavel\MSE - Meu Site Executavel\bin\Debug\MSE - Meu Site Executavel.exe.config
+c:\users\will\documents\visual studio 2013\Projects\MSE - Meu Site Executavel\MSE - Meu Site Executavel\bin\Debug\MSE - Meu Site Executavel.exe
+c:\users\will\documents\visual studio 2013\Projects\MSE - Meu Site Executavel\MSE - Meu Site Executavel\bin\Debug\MSE - Meu Site Executavel.pdb
+c:\users\will\documents\visual studio 2013\Projects\MSE - Meu Site Executavel\MSE - Meu Site Executavel\obj\Debug\MSE - Meu Site Executavel.csprojResolveAssemblyReference.cache
+c:\users\will\documents\visual studio 2013\Projects\MSE - Meu Site Executavel\MSE - Meu Site Executavel\obj\Debug\MSE___Meu_Site_Executavel.Properties.Resources.resources
+c:\users\will\documents\visual studio 2013\Projects\MSE - Meu Site Executavel\MSE - Meu Site Executavel\obj\Debug\MSE - Meu Site Executavel.csproj.GenerateResource.Cache
+c:\users\will\documents\visual studio 2013\Projects\MSE - Meu Site Executavel\MSE - Meu Site Executavel\obj\Debug\MSE - Meu Site Executavel.exe
+c:\users\will\documents\visual studio 2013\Projects\MSE - Meu Site Executavel\MSE - Meu Site Executavel\obj\Debug\MSE - Meu Site Executavel.pdb
+c:\users\will\documents\visual studio 2013\Projects\MSE - Meu Site Executavel\MSE - Meu Site Executavel\obj\Debug\MSE___Meu_Site_Executavel.MSE.resources
+c:\users\will\documents\visual studio 2013\Projects\MSE - Meu Site Executavel\MSE - Meu Site Executavel\obj\Debug\MSE___Meu_Site_Executavel.Sobre_o_programa.resources
+c:\users\will\documents\visual studio 2013\Projects\MSE - Meu Site Executavel\MSE - Meu Site Executavel\obj\Debug\MSE___Meu_Site_Executavel.programador.resources
